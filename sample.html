@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./sample.css">
+  <style>
+    section{
+      width: 900px;
+      height: 250px;
+      margin: 20px auto;
+      border: 20px dotted black;
+    }
+
+  </style>
+</head>
+<body>
+  <style>
+       
+    section{
+        overflow: auto;
+        border: solid 1px transparent;
+        border-color: green;
+        /* background-color: rgba(12, 39, 12, 0.76); */
+        
+    }
+
+    h2,p{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        max-height: 100px;
+    }
+   
+    main{
+        display: grid;
+        justify-content: space-evenly;
+        grid-template-columns: (2, 1fr);
+        grid-template-rows:(2, 50px);
+        grid-template-areas: 
+        "a b"
+        "c d";
+        gap:20px 20px;
+    }
+
+    section:nth-of-type(1){
+        grid-area: a;
+    }
+    section:nth-of-type(2){
+        grid-area: b;
+    }
+    section:nth-of-type(3){
+        grid-area: c;
+    }
+    section:nth-of-type(4){
+        grid-area: d;
+    }
+   
+    
+
+</style>
+</head>
+<body>
+<main>
+    <section>
+        <h2>Project 1</h2>
+        <p> </p>
+       
+    </section>
+    <section>
+        <h2>Project 2</h2>
+        <p></p>
+    </section>
+    <section>
+        <h2>Project 3</h2>
+        <p></p>
+    </section>
+    <section>
+        <h2>Project 4</h2>
+        <p></p>
+    </section>
+    
+</main>
+</body>
+</html>

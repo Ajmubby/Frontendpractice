@@ -1,0 +1,6 @@
+section:first-of-type{
+    background: linear-gradient(180deg, grey 70%);
+  }
+  section:nth-child(2){
+    background: linear-gradient(blue 80%);
+  }

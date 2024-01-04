@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p, figcaption, li { font-weight: 500;}
+
+.container {
+    max-width: 85%;
+    padding: 0 10%;
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+    grid-gap: 70px;
+}
+
+
+img{
+    max-width: 100%;
+}
+
+section:nth-of-type(4){
+    background-color: whitesmoke;
+    opacity: 20px;
+    align-content: center;
+    padding: 30px 10px;
+}
+
+section:not(:nth-of-type(2)) img{
+    border-radius: 2%;
+}
+.release-schedules h2{
+    margin-bottom: 20px;
+}
+
+ .release-schedules p,h4{
+    margin-bottom: 20px;
+}
+ .release-schedules li{
+    line-height: 30px;
+}
+
+
+
+nav{
+    display: flex;
+    background-color: black;
+    margin-bottom: 20px;
+}
+nav ul{
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    column-gap: 20px;
+    vertical-align: middle;
+    padding: 0 2rem;
+} 
+
+nav ul:last-of-type{
+    margin-left: auto;
+}
+
+
+a:hover{
+    color: lightgray;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    vertical-align: middle;
+}
+nav a:first-child{
+    background: linear-gradient(90deg, rgb(#8ad3cc 40%, ));
+    font-size: larger;
+}
+/* nav ul:nth-of-type(2){
+    display: flex;
+    height: 90px;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    column-gap: 20px;
+    
+} */
+.anime a:first-child{
+    border: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgb(220, 20, 130) ;
+    padding: 10px 10px;
+    text-decoration: none;
+    max-width: fit-content;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.anime a:nth-child(2){
+    border: 8px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius:12px;
+    background-color: rgb(220, 20, 130) ;
+    padding: 10px 10px;
+    text-decoration: none;
+    max-width: fit-content;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;  
+}
+
+/* .anime{
+    margin-bottom: 10px;
+    
+} */
+.AnimeCollective1{
+    padding: 0;
+    color: #7bdcb5;
+    margin-top: 0;
+    font-size: 700;
+}
+.AnimeCollective2{
+    padding: 0;
+    color: #fc6270;
+    margin-top: 0;
+    font-size: 500;
+}
+
+h1{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header-content p{
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-content h1{
+    font-weight: 100px;
+    
+}
+.date{
+    margin-bottom: 12px;
+}
